@@ -1,33 +1,57 @@
-header {
-    background-color: #E6E6E6;
-    text-align: center;
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
-h1,
-h2 {
-    color: #005677;
-    background-color: #C4C4C4;
+body header {
+  background-color: #E6E6E6;
+  text-align: center;
 }
-
-h1 {
-    font-size: 35px;
+body header h1 {
+  background-color: #C4C4C4;
+  color: #005677;
+  margin-top: 3vh;
 }
-
-h2 {
-    font-size: 20px;
+body main section.bio {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
 }
-
-footer {
-    background-color: #005677;
-    color: #FFFFFF;
-    text-align: center;
+body main section.bio h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  margin-bottom: 3vh;
 }
-
-.Datos {
-    font-weight: bold;
+body main section.bio ul li span.Datos {
+  font-weight: bold;
 }
-
-ul .Datos {
-
-    font-style: italic;
+body main section.formacion {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
 }
+body main section.formacion h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  margin-bottom: 3vh;
+}
+body main section.formacion table tr td.Datos {
+  font-weight: bold;
+}
+body main section.experiencia {
+  margin-top: 5vh;
+  margin-bottom: 3vh;
+}
+body main section.experiencia h2 {
+  background-color: #C4C4C4;
+  color: #005677;
+  margin-bottom: 3vh;
+}
+body main section.experiencia table tr td.Datos {
+  font-weight: bold;
+}
+body footer div.social {
+  background-color: #005677;
+  text-align: center;
+}
+body footer div.social span {
+  color: white;
+}/*# sourceMappingURL=style.css.map */
